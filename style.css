@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: #84E1AD;
+    margin: 0%;
+}
+
+.cabeçalho {
+    background-image: linear-gradient(to bottom, #3DDA84, #1A5C38);
+    padding: 5px 0px;
+    width: 100%;
+}
+
+.titulo {
+    font-family: Oswald;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font-size: 50px;
+    color: white;
+}
+
+.paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    font-size: 25px;
+}
+
+nav {
+    background-color: #1A5C38;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+nav a:hover {
+    background-color: #3DDA84;
+    transition-duration: 0.5s;
+}
+
+li {
+    list-style: none;
+    padding-right: 10px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    max-width: 800px;
+    min-width: 320px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+div.video {
+    
+}
+
+h1 {
+    margin: 0%;
+    font-family: idroid;
+    color: #1A5C38;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 1.5em;
+    font-size: 20px;
+
+}
+h2 {
+    font-family: idroid;
+    color: #1A5C38;
+    background-image: linear-gradient(to right, #9ae0b8, #3dda8400);
+}
+
+main strong {
+    color: #1A5C38;
+}
+
+main a {
+    text-decoration: none;
+    color: #1A5C38;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: #1A5C38;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #1A5C38;
+}
+
+picture {
+    margin:auto
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+aside {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9ae0b8;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+aside > ul {
+    columns: 2;
+    list-style-position: inside;
+}
+
+aside > ul > li {
+    text-decoration: '\2714';
+}
+
+aside > ul> li> abbr {
+    text-decoration: none;
+}
+aside > p {
+    padding: 10px;
+}
+
+h3 {
+    color: white;
+    background-color: #2FA866;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
